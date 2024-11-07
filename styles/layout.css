@@ -13,6 +13,7 @@ nav {
    height: 50px;
    width: 100%; 
    display: flex;
+   padding-bottom: 50px;
    justify-content: space-around;
 
 }
