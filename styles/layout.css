@@ -1,5 +1,19 @@
-.top {
-   background-color: gray;
+
+.header-content {
+   text-align: start;
+   background-color: #343a40;
+   height: 200px;
+   width: 100%; 
+}
+.paragraph-white {
+   color: white;
+}
+nav {
+   background-color: black;
+}
+footer{
+   background-color: #343a40;
+   text-align: center;
    height: 200px;
    width: 100%; 
 }
