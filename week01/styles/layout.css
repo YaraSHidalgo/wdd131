@@ -1,4 +1,6 @@
-
+body{
+   margin: auto;
+}
 .header-content {
    text-align: start;
    background-color: #343a40;
@@ -30,11 +32,11 @@ a{
    align-items: stretch;
 }
 .main-content{
-   justify-content: start;
+   float: start;
    background-color: gray;
 }
 .aside-content{
-   justify-content: end;
+   float: end;
    background-color: white;
 }
 footer{
