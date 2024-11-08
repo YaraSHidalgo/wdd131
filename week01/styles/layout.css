@@ -4,6 +4,8 @@
    background-color: #343a40;
    height: 100px;
    width: 100%; 
+}
+.paragraph-header{
    padding: 30px 100px 30px 30px;
 }
 .paragraph-white {
