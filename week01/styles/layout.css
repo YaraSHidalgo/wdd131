@@ -20,8 +20,14 @@ nav {
 a{
    padding: 1em;
 }
-.main-content{
+.center-main{
     display: flex;
+}
+.main-content{
+   justify-content: start;
+}
+.aside-content{
+   justify-content: end;
 }
 footer{
    background-color: #343a40;
