@@ -1,5 +1,5 @@
 body{
-   margin: auto;
+   margin: 1em;
 }
 .header-content {
    text-align: start;
@@ -30,19 +30,22 @@ a{
    width: 100%; 
    display: flex;
    align-items: stretch;
+   float: start;
 }
 .main-content{
-   float: start;
+   width: 70%;
    background-color: gray;
+   padding: 15px 100px 30px 15px;
 }
 .aside-content{
-   float: end;
+   width: 30%;
    background-color: white;
+   padding: 15px 100px 30px 15px;
 }
 footer{
    background-color: #343a40;
    text-align: center;
-   height: 100px;
+   height: 100%;
    width: 100%; 
 }
 .footer-paragraph{
