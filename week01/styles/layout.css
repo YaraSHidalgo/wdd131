@@ -4,6 +4,7 @@
    background-color: #343a40;
    height: 200px;
    width: 100%; 
+   padding: 30px 100px 30px 30px;
 }
 .paragraph-white {
    color: white;
@@ -24,4 +25,7 @@ footer{
    text-align: center;
    height: 200px;
    width: 100%; 
+}
+.footer-paragraph {
+   padding: 1em;
 }
