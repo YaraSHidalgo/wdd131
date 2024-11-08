@@ -9,6 +9,7 @@ body{
 }
 #paragraph-header{
    padding: 30px 100px 30px 30px;
+   font-family: 'Times New Roman', serif;
 }
 .paragraph-white {
    color: white;
@@ -23,6 +24,7 @@ nav {
 }
 a{
    padding: 1em;
+   font-family: "Roboto", sans-serif;
 }
 .center-main{
    display: flex;
@@ -31,6 +33,7 @@ a{
    display: flex;
    align-items: stretch;
    float: start;
+   font-family: "Open Sans", sans-serif;
 }
 .main-content{
    width: 70%;
@@ -45,9 +48,10 @@ a{
 footer{
    background-color: #343a40;
    text-align: center;
-   height: 100%;
+   height: 300px;
    width: 100%; 
 }
 .footer-paragraph{
    padding: 1em;
+   font-family: 'Times New Roman', serif;
 }
