@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div> <!--The div to separate the H1 to the nav bar-->
+        <div class="top"> <!--The div to separate the H1 to the nav bar-->
         <h1>WDD 131: Dynamic Web Fundamentals - Yara Hidalgo</h1>
         </div>
         <div><!--The nav bar-->
@@ -30,6 +30,7 @@
     <main>
         <div class="sections">
         <section> <!--section card 1-->
+            <div class="section1">
             <h2 class="title-about"> About Me</h2> <!--The card title H2-->
             <!--A paragraph about me-->
             <p class="about">I'm Yara Hidalgo. I am from Piracaba, Sao Paulo, Brazil but I have been living in Argentina for 5 years. My husband, my
@@ -39,7 +40,6 @@
             <!--image profile-->
             <img class="photo" src="images\profile.jpg" alt="Profile Photo">
            
-            <div>
             <!--About the country that I am living-->
             <h3 class="title-country">Buenos Aires, Argentina</h3>
             <!--Argentina flag-->
@@ -50,21 +50,24 @@
             </div>
         </section>
 
-        <section> <!--section card 2-->
-            <h2> Web Dev Resources</h2> <!--The card title H2-->
-            <p>A few complete, dynamic and interactive resources to learn all about Web Development and Programming tools such as HTML,
-            CSS, JS, React, Python etc.</p>
-            <ul> <!--List of links (ul=unordered list)-->
-                <li><a href="https://www.w3schools.com/">w3schools</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/">Mdn Web Docs</a></li>
-                <li><a href="https://codepen.io/">Code Pen</a></li>
-            </ul>
-        </section>
+        <section class="section2"> 
+            <h2 class="title-resources"> Web Dev Resources</h2> 
+            <div class="resources">
+                <p>A few complete, dynamic and interactive resources to learn all about Web Development and Programming tools such as HTML,
+                    CSS, JS, React, Python etc.</p>
+                <ul> 
+                    <li><a class="link-resource" href="https://www.w3schools.com/">w3schools</a></li>
+                    <li><a class="link-resource" href="https://developer.mozilla.org/en-US/">Mdn Web Docs</a></li>
+                    <li><a class="link-resource" href="https://codepen.io/">Code Pen</a></li>
+                </ul>
+            </div>
+        </section> 
         </div>
     </main>
     <footer>
-        <p></p>
-        <p></p>
+        <div class="footer">
+            <p>© 2024 Yara Hidalgo - Argentina</p>
+        </div>
     </footer>
     
 </body>
