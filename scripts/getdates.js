@@ -10,3 +10,5 @@ const footerModified = document.querySelector('footer p:nth-of-type(2)');
 if (footerModified) {
     footerModified.textContent = `Last modified: ${lastModifiedDate}`;
 }
+console.log(currentYear); 
+console.log(lastModifiedDate);
