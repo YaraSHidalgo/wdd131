@@ -1,14 +1,27 @@
-// Current year 
-const currentYear = new Date().getFullYear();
-const footerYear = document.querySelector('footer p:first-of-type'); 
-if (footerYear) {
-    footerYear.textContent = `© ${currentYear} Yara Hidalgo. Argentina.`;
+// Função para formatar a data e hora
+function formatDateTime(date) {
+    const options = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true
+    };
+    return date.toLocaleString('pt-BR', options);
 }
-// last modified date
-const lastModifiedDate = document.lastModified; //last modified date of the document
-const footerModified = document.querySelector('footer p:nth-of-type(2)'); 
-if (footerModified) {
-    footerModified.textContent = `Last modified: ${lastModifiedDate}`;
+function updateInfo() {
+    const currentDateTime = new Date(); // Pega a data e hora atual
+    const lastUpdateElement = document.getElementById('lastUpdate');
+    const currentTimeElement = document.getElementById('currentTime');
+    
+    // Atualiza a data da última atualização
+    lastUpdateElement.textContent = formatDateTime(currentDateTime);
+
+    // Atualiza a hora atual
+    currentTimeElement.textContent = formatDateTime(currentDateTime);
 }
-console.log(currentYear); 
-console.log(lastModifiedDate);
+
+window.onload = updateInfo;
