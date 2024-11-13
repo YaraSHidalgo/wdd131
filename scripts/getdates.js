@@ -10,7 +10,7 @@ function formatDateTime(date) {
         second: '2-digit',
         hour12: true
     };
-    return date.toLocaleString('pt-BR', options);
+    return date.toLocaleString('eng-AR', options);
 }
 function updateInfo() {
     const currentDateTime = new Date(); // Pega a data e hora atual
