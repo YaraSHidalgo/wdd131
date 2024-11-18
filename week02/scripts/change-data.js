@@ -14,5 +14,15 @@ chapterList.append(deleteButton); // Append the li element variable with the del
 //chapterList.innerHTML = list.join("");
 list.append(chapterList);//Append the li element variable to the unordered list in your HTML
 
-
-
+//Create a click event listener for the Add Chapter button using an addEventListener.
+button.addEventListener('click', function() {
+  // Code to execute when the element is clicked
+   
+});
+//if (input.value.trim() !== '') { ... };
+deleteButton.addEventListener('click', function () {
+  list.removeChild(li);
+  input.focus();
+});
+input.value = '';
+input.focus();
