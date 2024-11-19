@@ -1,0 +1,70 @@
+/*Style of header, nav, a and hover*/
+header {
+    align-items: center;
+    justify-content: center;
+    background-color: #3d405b ;
+    padding: 20px;
+    color: white;
+}
+header,main {
+    margin: 0 auto;
+}
+h1{
+    font-family: "Work Sans", sans-serif;
+}
+nav{
+    margin: 0 auto;
+    max-width: 680px;
+    font-family: "Open Sans", sans-serif;
+}
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1rem;
+}
+a:hover{
+    background-color: #f2e9e4;
+    color: #3d405b;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    border-radius: 5px;
+}
+/*main style*/
+main{
+    font-family: "Roboto", sans-serif;
+    background-color: #e9ecef;
+    max-width: 1fr;;
+    margin: 1rem;
+}
+h2{
+    text-align: Center;
+    color: #22223B;
+}
+/*card and img styles*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #ddd;
+    border-radius: 5px;
+}
+/*Footer style*/
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: #22223B;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    border-radius: 5px;
+}
