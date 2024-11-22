@@ -1,21 +1,16 @@
-@media screen and (min-width: 680px) {
-    main {
-        margin: 1rem;
-        }
-    .container {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-    }
-    header{
+@media screen and (min-width: 500px) {
+.nav-list {
         display: flex;
-        justify-content: space-between;
-    }
-    nav{
-        display: flex;
-        align-items: end;
-    }
-    /*nav ul li {
-        flex: 1 1 100%;
-    }*/
+}
+.nav-list li {
+    display: block;
+    /* change state in small view */
+    flex: 1 1 100%;
+}
+.nav-list a {
+    text-align: center;
+}
+#menu {
+    display: none;
+}
 }
