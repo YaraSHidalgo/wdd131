@@ -111,8 +111,8 @@ footer {
     max-height: 100vh;
 }
 #currentYear, #lastUpdate, footer{
-    background-color: #9A8C98;
-    color: #22223B;
+    background-color: #4A4E69;
+    color: #F2E9E4;
     font-family: "Roboto", sans-serif;
     font-style: italic;
 }
