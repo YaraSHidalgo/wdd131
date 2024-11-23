@@ -1,13 +1,14 @@
 // Store the selected elements that we are going to use. 
-const navBar = document.querySelector('.nav-list')
-const hambuguerButton = document.querySelector('#menu');
+const menuButton = document.getElementById('menu');
+const navList = document.querySelector('.nav-list');
 
-// Add a click event listender to the hamburger button and use a callback function that toggles the list element's list of classes.
-hambuguerButton.addEventListener('click', () => {
-	navBar.classList.toggle('show');
-	hambuguerButton.classList.toggle('show');
+// Add a eventList when 'clik' to show
+menuButton.addEventListener('click', () => {
+    navList.classList.toggle('show');
+    menuButton.classList.toggle('show');
 });
 
+//footer elements
 
 //var to hold the current year
 const thisYear = new Date().getFullYear();

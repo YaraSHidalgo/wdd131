@@ -1,16 +1,23 @@
-@media screen and (min-width: 500px) {
-.nav-list {
+/* Media Query to large size with min width of 650px */
+@media screen and (min-width: 650px) {
+    .nav-list {
+        text-decoration: none;/*can be use on ul{}*/
+        list-style: none;/*can be use on ul {}*/
         display: flex;
-}
-.nav-list li {
-    display: block;
-    /* change state in small view */
-    flex: 1 1 100%;
-}
-.nav-list a {
-    text-align: center;
-}
-#menu {
-    display: none;
-}
+    }
+    #menu{
+        display: none;/*hide the button on large size*/
+    }
+    .nav-list li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    .nav-list a {
+        text-align: center;
+    }
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
 }
